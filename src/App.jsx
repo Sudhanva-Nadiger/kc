@@ -19,7 +19,7 @@ const NearestPlaces = lazy(() => import('./pages/nearestPlaces'));
 function App() {
     const location = useLocation();
     return (
-        <div className='flex flex-col min-h-screen'>
+        <div className='flex flex-col min-h-screen overflow-x-hidden'>
             <AnimatePresence >
                 <Routes location={location} key={location.pathname}>
                     <Route path="/" element={ <SharedLayout/> }>
