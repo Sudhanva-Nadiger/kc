@@ -13,6 +13,7 @@ const index = () => {
 
             className='flex gap-10 flex-wrap items-center justify-center'
         >
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3880.8227341966463!2d75.25332877399715!3d13.423297086935184!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1686920370286!5m2!1sen!2sin" width="600" height="450" className="border:0;" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
             <div>
                 <section className='flex flex-col gap-3'>
                     {/* address */}
